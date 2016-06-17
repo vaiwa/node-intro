@@ -23,6 +23,11 @@ nvm ls
 
 node -v
 npm -v
+
+node # REPL
+
+cat console.log('Hello') >> index.js
+node index.js
 ```
 
 ### [CoffeeScript](http://coffeescript.org/)
@@ -30,6 +35,11 @@ A little language that compiles into JavaScript.
 ```
 npm i coffee-script -g
 coffee -v
+
+coffee # REPL
+
+cat console.log 'Hello' >> index.coffee
+coffee index.coffee
 ```
 - ma to napr [tridy](http://coffeescript.org/#classes), super ale skoro nepouzivame =)
 
